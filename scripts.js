@@ -9,11 +9,15 @@
 
 let bandNumber = 1;
 
+// You could write the function this way:
+// const takeNumber = (bandName) => `${bandNumber++}. ${bandName}`;
+
+// Or this way:
 const takeNumber = function (bandName) {
-    /*
-        Write your awesome code here. 
-        See comments below for what should be returned.
-    */
+//     /*
+//         Write your awesome code here. 
+//         See comments below for what should be returned.
+//     */
     return `${bandNumber++}. ${bandName}`;
 }
 
@@ -28,4 +32,3 @@ console.log(eagl);  // This should print "3. Eagles" in the console
 
 const meta = takeNumber("Metallica")
 console.log(meta);  // This should print "4. Metallica" in the console
-
