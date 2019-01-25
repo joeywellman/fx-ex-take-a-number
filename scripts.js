@@ -24,4 +24,8 @@ const under = takeNumber("Underdogs")
 console.log(under);  // This should print "2. Underdogs" in the console
 
 const eagl = takeNumber("Eagles")
-console.log(eagl);  // This should print "2. Underdogs" in the console
+console.log(eagl);  // This should print "3. Eagles" in the console
+
+const meta = takeNumber("Metallica")
+console.log(meta);  // This should print "4. Metallica" in the console
+
